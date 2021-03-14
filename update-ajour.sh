@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 rm -rf /home/robb/Builds/ajour
 git clone https://github.com/casperstorm/ajour.git
 (cd ajour; cargo build --release)
